@@ -2,7 +2,7 @@
 
 var pg = require("pg");
 
-var conString = "pg://edvert:edvert_p4ssword@localhost:5430/rr";
+var conString = "pg://edvert:@localhost:5430/rr";
 
 var client = new pg.Client(conString);
 client.connect();
